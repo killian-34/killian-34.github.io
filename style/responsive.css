@@ -1,7 +1,3 @@
-@charset "UTF-8";
-
-/* This file contains CSS related to responsiveness (browser size changes, grids, etc.) */
-
 .section {
 	clear: both;
 	margin-top: 10px;
@@ -28,10 +24,6 @@
 	clear: both;
 }
 
-.half {
-	width: 50%;
-}
-
 .third {
 	width: 33%;
 }
@@ -40,24 +32,9 @@
 	width: 66%;
 }
 
-.fourth{
-	width: 25%;
-}
-
-.seventy{
-	width:70%;
-}
-
-.thirty{
-	width:30%;
-}
-
 @media only screen and (max-width: 1000px) {
 	.col {
 		margin: 1% 0 1% 0%;
-	}
-	.half {
-		width: 100%;
 	}
 	.third {
 		width: 100%;
@@ -66,33 +43,4 @@
 	.two-thirds{
 		width: 100%;
 	}
-	
-	.fourth {
-		width: 100%;
-	}
-
-	.seventy{
-		width:100%;
-	}
-
-	.thirty{
-		width:100%;
-	}
-}
-
-@media screen and (max-width: 750px) {
-	#triangle-header {
-		width: 100%; 
-		height: 35px;
-		background-image: url('../../images/header-triangles-small.png');
-	}
-	.topNotice {
-		height: 160px;
-	}
-}
-
-@media screen and (max-width: 630px) {
-    .countdown-container {
-	display: none;
-    }
 }

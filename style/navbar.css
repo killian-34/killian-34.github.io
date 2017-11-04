@@ -17,28 +17,9 @@
   border-top-color:#bb0000;
   border-top-style:solid;
 }
-#mobilenav {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background-color: #333;
-    overflow: hidden;
-    z-index: 100;
-    text-align:center;
-}
 
 .header-filler{
   height:65px;
-}
-
-#nav.mobile {
-  position: fixed;
-  top: 0;
-  overflow: hidden;
-}
-.secondary-page #nav {
-  position: absolute;
-  top: 0;
 }
 
 #nav ul {
