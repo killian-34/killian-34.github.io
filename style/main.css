@@ -75,7 +75,7 @@ p {
     margin: 0;
     font-size: 14pt;
     font-weight: 300;
-    line-height: 15pt;
+    line-height: 19pt;
 }
 
 .clear {
@@ -91,7 +91,7 @@ p {
 
 .job-title-info{
 	min-height: 150px;
-	padding: 3px;
+	padding: 3px 10px;
 }
 .job-title-info > p {
 	text-align:left;
