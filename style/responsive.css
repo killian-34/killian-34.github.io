@@ -32,6 +32,10 @@
 	width: 66%;
 }
 
+.half {
+	width: 50%;
+}
+
 @media only screen and (max-width: 1000px) {
 	.col {
 		margin: 1% 0 1% 0%;
@@ -41,6 +45,9 @@
 	}
 
 	.two-thirds{
+		width: 100%;
+	}
+	.half{
 		width: 100%;
 	}
 }
