@@ -163,6 +163,27 @@ p {
 .red {
 	color:#bb0000;
 }
+
+.journal {
+	background-color: #26F940;
+	padding: 1px 2px;
+}
+
+.conference {
+	background-color: #FF7070;
+	padding: 1px 2px;
+}
+
+.workshop {
+	background-color: #CCCCCC;
+	padding: 1px 2px;
+}
+
+.arxiv {
+	background-color: #20AEFF;
+	padding: 1px 2px;
+}
+
 /*
 @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px)  {
 
