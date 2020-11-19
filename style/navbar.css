@@ -1,3 +1,24 @@
+.banner {
+  /*position: fixed;*/
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  /*height:300px;*/
+  /*line-height: 186px;*/
+  /*overflow:hidden;
+  border-bottom:1px;
+  border-bottom-color:#bb0000;
+  border-bottom-style:solid;
+  border-top:1px;
+  border-top-color:#bb0000;
+  border-top-style:solid;*/
+}
+
+.header-filler{
+  height:300px;
+}
+
+
 /* Navbar */
 #nav {
   text-align: center;
@@ -18,10 +39,10 @@
   border-top-style:solid;
 }
 
-.header-filler{
+/*.header-filler{
   height:65px;
 }
-
+*/
 #nav ul {
     list-style-type: none;
     margin: 0;

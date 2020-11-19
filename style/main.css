@@ -90,7 +90,7 @@ p {
 }
 
 .job-title-info{
-	min-height: 150px;
+	/*min-height: 150px;*/
 	padding: 3px 10px;
 }
 .job-title-info > p {
@@ -102,7 +102,13 @@ p {
 }
 
 .projects-subsection{
-	padding-left:20px;
+	/*padding-left:20px;*/
+	text-align:left;
+}
+
+.projects-container{
+	padding-left:5px;
+	padding-top:10px;
 }
 
 .subsection-top-list {
@@ -116,7 +122,10 @@ p {
 }
 
 .subsection-top-list > li{
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 19pt;
 }
 
 .subsection-websites > li{
@@ -182,6 +191,11 @@ p {
 .arxiv {
 	background-color: #20AEFF;
 	padding: 1px 2px;
+}
+
+.float-img{
+	padding: 20px;
+	float:right;
 }
 
 /*
