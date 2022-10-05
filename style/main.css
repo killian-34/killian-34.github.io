@@ -9,6 +9,12 @@ body,html {
   	/*font-family: 'proximanova', 'proxima-nova', Proxima Nova, Helvetica, sans-serif;*/
 }
 
+span.hide {
+	color: #fff;
+	font-family: 'Courier New', sans-serif;
+	font-size:  6pt;
+}
+
 h1 {
 	font-weight: 600px;
 	letter-spacing: 1px;
